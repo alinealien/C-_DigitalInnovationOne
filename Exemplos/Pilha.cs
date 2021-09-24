@@ -1,9 +1,10 @@
 using System;
 
-namespace DigitalInnovationOne /* */
+namespace DigitalInnovationOne.Exemplos 
 {
 
-    public class Pilha{
+    public class Pilha
+    {
 
         Posicao primeiro;
 
@@ -16,7 +17,7 @@ namespace DigitalInnovationOne /* */
         {
             if (primeiro == null)
             {
-                throw new InvalidOperationException(); /* uma excessao para quando n tiver mais algo para empilhar*/
+                throw new InvalidOperationException("A pilha está vazia!"); 
             }
         object resultado = primeiro.item;
         primeiro = primeiro.proximo;
@@ -30,7 +31,7 @@ namespace DigitalInnovationOne /* */
 
             public object item;
 
-            public Posicao(Posicao proximo), object item)
+            public Posicao(Posicao proximo, object item)
             {
                 this.proximo = proximo;
                 this.item = item;
