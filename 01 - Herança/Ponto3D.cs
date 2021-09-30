@@ -1,4 +1,4 @@
-namespace DigitalInnovationOne.Herança
+/* namespace DigitalInnovationOne.Herança
 {
     public class Ponto3D : Ponto
     {
@@ -23,4 +23,4 @@ namespace DigitalInnovationOne.Herança
 
 
     }
-}
+} */

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AlineAntunes\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AlineAntunes\\.nuget\\packages"
+    ]
+  }
+}

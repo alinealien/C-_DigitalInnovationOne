@@ -1,4 +1,4 @@
-namespace DigitalInnovationOne.Herença
+/* namespace DigitalInnovationOne.Herença
 {
     public class Ponto
     {
@@ -26,4 +26,4 @@ namespace DigitalInnovationOne.Herença
             //Faz algo
         }
     }
-}
+} */
